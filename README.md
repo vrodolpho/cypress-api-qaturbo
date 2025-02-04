@@ -7,9 +7,10 @@ Este projeto contém testes automatizados para a API Restful usando o framework 
 - Visual Studio Code
 - Node.js
 - Cypress
+- Javascript
 - Postman
 
-Ao realizar o clone do projeto, executar npm i em seu terminal para instalar as dependências do projeto.
+Ao realizar o clone do projeto, executar "npm init -y" e "npm install cypress" em seu terminal para instalar as dependências do projeto em Javascrip.
 
 ## Cenários de teste 📋
 
@@ -45,7 +46,9 @@ Ao realizar o clone do projeto, executar npm i em seu terminal para instalar as 
   - Verificar se o status da resposta é ![Vermelho] 404.
   - Verificar se a mensagem de erro informa que o objeto não existe.
 
-### Deletar objeto
+### Deletar objeto 🗑️ 
+
+**Deletar dispositivos com sucesso:**
   - Verificar se o 'id' está correto.
   - Verificar se a mensagem deletou o objeto.
   - Verificar se o status da resposta é [Verde] 200.
